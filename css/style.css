@@ -25,6 +25,23 @@ header img{
 
 }
 
+.ingresa_palabra{
+    background-color: blue;
+    height: 350px;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+
+.ingresa_palabra textarea{
+    padding:0;
+    
+    
+    
+}
+
 .palabra{
     background-color:blueviolet;
     height: 150px;
@@ -57,9 +74,8 @@ header img{
 
 .mensaje{
     color: aliceblue;
-    text-align: center;
-    
     position: absolute;
+    text-align: center;
     top:25%;
     left:42%;
     background-color:crimson;
