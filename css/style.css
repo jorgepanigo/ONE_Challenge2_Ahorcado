@@ -21,7 +21,7 @@ header img{
 }
 
 .orca{
-    background-color: blue;
+    border-color: blue;
     height: 450px;
     width: 940px;
     margin: 0 auto;
@@ -170,7 +170,7 @@ textarea{
     resize:none;
     outline:none;
     border:none;
-    border: 1px solid black;
+    
     
     font-size: 24px;
     font-weight: 400;
@@ -184,7 +184,9 @@ textarea{
 .d-none{
     display: none;
 }
-/* textarea:active{
-    outline:none;
-    
-} */
+
+footer p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
