@@ -15,17 +15,17 @@
         </header>
 
         <main>
-            <div class="orca" style="display: none;">
+            <div class="orca d-none" style="display: none;">
                 <div class="mensaje"  >
                     <h3>Titulo</h3>
                     <p>Esto es una mensaje</p>  
 
                 </div>
             </div>
-            <div class="ingresa_palabra">
+            <div class="ingresa_palabra d-none">
                 <textarea name="" id="" cols="40" rows="6"></textarea>
             </div>
-            <div class="palabra">
+            <div class="palabra d-none">
                 <ul class="lista">
                     <li>A</li>
                     <li>A</li>
@@ -39,7 +39,7 @@
                     <li>A</li>                 
                 </ul>
             </div>
-            <div class="intentos">
+            <div class="intentos d-none">
                 <ul class="lista">
                     <li>A</li>
                     <li>A</li>
@@ -49,21 +49,20 @@
                 </ul>
             </div>
             
-            <div class="alerta">
+            <div class="alerta d-none">
                 <p>Ingresar solo mayusculas</p>
             </div>
-            <div class="botonera iniciar">
-                <input class="btn btn-claro" type="button" value="Opcion 1">
-                <input class="btn btn-oscuro" type="button" value="Opcion 1">
-                
+            <div class="botonera iniciar d-none">
+                <input class="btn btn-oscuro" type="button" value="Nuevo Juego">
+                <input class="btn btn-claro" type="button" value="Agregar nueva palabra">
             </div>
-            <div class="botonera palabras">
+            <div class="botonera palabras d-none">
                 <input class="btn btn-claro" type="button" value="Opcion 1">
                 <input class="btn btn-oscuro" type="button" value="Opcion 1">
             </div>
-            <div class="botonera juego">
-                <input class="btn btn-claro" type="button" value="Opcion 1">
-                <input class="btn btn-oscuro" type="button" value="Opcion 1">
+            <div class="botonerav juego">
+                <input class="btn btn-oscuro" type="button" value="Nuevo Juego"  style="height:90px;">
+                <input class="btn btn-claro" type="button" value="Cargar Palabras">
             </div>
         </main>
 

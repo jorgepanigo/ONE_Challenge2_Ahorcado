@@ -99,6 +99,19 @@ header img{
     
 }
 
+.botonerav{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.botonerav input{
+    height: 50px;
+}
+
 .alerta{
     font-size: smaller;
     height: 20px;
@@ -137,6 +150,8 @@ header img{
     background:#D8DFE8; 
 }
 
+
+
 .btn-oscuro{
     background: #0A3871;
     color: #FFFFFF;
@@ -166,6 +181,9 @@ textarea{
     
     }
 
+.d-none{
+    display: none;
+}
 /* textarea:active{
     outline:none;
     
