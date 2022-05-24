@@ -90,7 +90,7 @@ header img{
 
 .botonera{
     
-    height: 50px;
+    height: 65px;
     max-width: 450px;
     margin: 0 auto;
     text-align: center;
@@ -123,6 +123,7 @@ header img{
 .btn{
     flex-grow: 1;
     margin: 5px;
+    border-radius: 15px;
 }
 
 .btn-claro{ 
