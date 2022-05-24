@@ -50,25 +50,53 @@ header img{
 
 }
 
+.palabra li{
+    display: inline-block;
+    border-bottom: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 90px;
+}
+
+.palabra ul{
+    text-align: center;
+    letter-spacing: 5px;    
+}
+
 .intentos{
+    font-size: 35px;
     background-color:cadetblue;
     height: 75px;
     width: 940px;
     margin: 0 auto;
+    text-align: center;
+
+}
+
+.intentos li{
+    display: inline-block;
+    letter-spacing: 5px;
+}
+
+.lista{
+    text-decoration: none;
 
 }
 
 .botonera{
     background-color:chocolate;
-    height: 100px;
-    width: 940px;
+    height: 50px;
+    max-width: 450px;
     margin: 0 auto;
+    text-align: center;
+    display: flex;
+    
 }
 
 .alerta{
     background-color:chartreuse;
     height: 20px;
-    width: 940px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -82,5 +110,9 @@ header img{
     height: 200px;
     width: 300px;
     margin: 0 auto;   
+}
+.boton{
+    flex-grow: 1;
+    margin: 5px;
 }
 
