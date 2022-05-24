@@ -2,19 +2,22 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    color:#0A3871;
+
 }
 
 header{
     height: 100px;
-    background-color: aqua;
+
     margin: 0 auto;
     width: 940px;
 }
 
 header img{
-    height: 95px;
-    width: 95px;
-    background-color: brown;
+    height: 65px;
+    
+  
 }
 
 .orca{
@@ -26,7 +29,7 @@ header img{
 }
 
 .ingresa_palabra{
-    background-color: blue;
+
     height: 350px;
     width: 940px;
     margin: 0 auto;
@@ -43,29 +46,31 @@ header img{
 }
 
 .palabra{
-    background-color:blueviolet;
+
     height: 150px;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 
 }
 
 .palabra li{
     display: inline-block;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #0A3871;;
     text-align: center;
     text-decoration: none;
-    font-size: 90px;
+    font-size: 75px;
+    width: 80px;
+    margin: 5px;
 }
 
 .palabra ul{
     text-align: center;
     letter-spacing: 5px;    
+    
 }
 
 .intentos{
     font-size: 35px;
-    background-color:cadetblue;
     height: 75px;
     width: 940px;
     margin: 0 auto;
@@ -84,7 +89,7 @@ header img{
 }
 
 .botonera{
-    background-color:chocolate;
+    
     height: 50px;
     max-width: 450px;
     margin: 0 auto;
@@ -94,10 +99,14 @@ header img{
 }
 
 .alerta{
-    background-color:chartreuse;
+    font-size: smaller;
     height: 20px;
     max-width: 450px;
     margin: 0 auto;
+}
+
+.alerta p{
+    margin-left: 2px;
 }
 
 .mensaje{
@@ -111,8 +120,28 @@ header img{
     width: 300px;
     margin: 0 auto;   
 }
-.boton{
+.btn{
     flex-grow: 1;
     margin: 5px;
 }
 
+.btn-claro{ 
+    background:transparent;
+    border: 1px solid #0A3871;
+    color:#0A3871;
+}
+
+.btn-claro:hover{  
+    background:#D8DFE8; 
+}
+
+.btn-oscuro{
+    background: #0A3871;
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+   
+}
+
+.btn-oscuro:hover{
+    background: #356EA9;
+}
